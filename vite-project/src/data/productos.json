@@ -1,0 +1,51 @@
+[
+    {
+        "id":1,
+        "nombre": "3:33",
+        "imagen": "/imagenes/essencial.jpg",
+        "precio": 7500,
+        "detalle": "Triple Carne (125 Gr. cada medallón). Triple cheddar, triple bacon, salsa mostaza, onion."
+    },
+    {
+        "id":2,
+        "nombre": "DIME BURGER",
+        "imagen": "/imagenes/essencial.jpg",
+        "precio": 6500,
+        "detalle": "Doble Carne (125 Gr. cada medallón). Doble Cheddar, doble Bacon, pepino agridulce, cebolla crispy, salsa dime de ajo."
+    },
+    {
+        "id":3,
+        "nombre": "BIGPPER",
+        "imagen": "/imagenes/essencial.jpg",
+        "precio": 6500,
+        "detalle": "Doble Carne (125 Gr. cada medallón). Doble Cheddar, Bacon, tomate, pepino agridulce, cebolla, lechuga, salsa big."
+    },
+    {
+        "id":3,
+        "nombre": "BIGPPER",
+        "imagen": "/imagenes/essencial.jpg",
+        "precio": 6500,
+        "detalle": "Doble Carne (125 Gr. cada medallón). Doble Cheddar, Bacon, tomate, pepino agridulce, cebolla, lechuga, salsa big."
+    },
+    {
+        "id":4,
+        "nombre": "ESSENCIAL 57 Burger",
+        "imagen": "/imagenes/essencial.jpg",
+        "precio": 7200,
+        "detalle": "Hamburguesa de doble carne, triple cheddar, relish de pepino, ketchup con cebollas, con papas fritas chicas."
+    },
+    {
+        "id":5,
+        "nombre": "UMBRELLA CUSTOM",
+        "imagen": "/imagenes/essencial.jpg",
+        "precio": 7500,
+        "detalle": "Hamburguesa de doble carne, doble provolone,  doble bacón, chutney de panceta y cebolla y salsa Alioli de morron asado con papas fritas chicas."
+    },
+    {
+        "id":6,
+        "nombre": "HELL",
+        "imagen": "/imagenes/essencial.jpg",
+        "precio": 7500,
+        "detalle": "Hamburguesa doble carne, cuadruple cheddar, bacon, salsa DimeHell y pickle de cebolla con papas fritas chicas."
+    }
+]
