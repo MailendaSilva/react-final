@@ -10,6 +10,7 @@
   }
   
   .card {
+    text-align: center;
     flex: 0 0 calc(33.33% - 16px); 
     max-width: calc(33.33% - 16px); 
     border: 1px solid #f758d4;

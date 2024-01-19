@@ -4,7 +4,7 @@ import "../ItemListContainer/ItemList.css";
   return (
     <div  className="card">
         <h2>{item.nombre}</h2>
-        <img src={`/imagenes/${item.imagen}`} alt={item.nombre} />
+        <img src={`${item.imagen}`} alt={item.nombre} height="200" width="200" />
         <p>${item.precio}</p>
         <p>{item.detalle}</p>
     </div>

@@ -1,10 +1,13 @@
 import React from 'react';
 
 const Item = ({ productos }) => {
+  console.log(`/imagenes/${productos.imagen}`);
   return (
+    
     <div>
       <h2>{productos.nombre}</h2>
-      <img src={`/imagenes/${productos.imagen}`} alt="ERROR IMG" />
+      
+      <img src={`${productos.imagen}`} alt="ERROR IMG" height="200" width="200" />
       <p>${productos.precio}</p>
       <a className="verMas" href={`/item/${productos.id}`}>Ver más</a>
     </div>

@@ -6,7 +6,7 @@ export const ItemList = ({productos}) => {
   return ( 
     <div className="item-list-container">
 
-    <h1 class= "titulo">COMBOS DISPONIBLES</h1>
+    <h1 className= "titulo"> DISPONIBLES </h1>
             {
                 //recorro con map y creo un div x cada prod
                 productos.length > 0 && 

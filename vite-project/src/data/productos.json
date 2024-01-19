@@ -1,13 +1,15 @@
 [
     {
         "id":1,
+        "categoria": "hamburguesas",
         "nombre": "3:33",
-        "imagen": "/imagenes/essencial.jpg",
+        "imagen": "/imagenes/333.jpg",
         "precio": 7500,
         "detalle": "Triple Carne (125 Gr. cada medallón). Triple cheddar, triple bacon, salsa mostaza, onion."
     },
     {
         "id":2,
+        "categoria": "hamburguesas",
         "nombre": "DIME BURGER",
         "imagen": "/imagenes/essencial.jpg",
         "precio": 6500,
@@ -15,37 +17,66 @@
     },
     {
         "id":3,
+        "categoria": "hamburguesas",
         "nombre": "BIGPPER",
-        "imagen": "/imagenes/essencial.jpg",
-        "precio": 6500,
-        "detalle": "Doble Carne (125 Gr. cada medallón). Doble Cheddar, Bacon, tomate, pepino agridulce, cebolla, lechuga, salsa big."
-    },
-    {
-        "id":3,
-        "nombre": "BIGPPER",
-        "imagen": "/imagenes/essencial.jpg",
+        "imagen": "/imagenes/bigper.jpg",
         "precio": 6500,
         "detalle": "Doble Carne (125 Gr. cada medallón). Doble Cheddar, Bacon, tomate, pepino agridulce, cebolla, lechuga, salsa big."
     },
     {
         "id":4,
-        "nombre": "ESSENCIAL 57 Burger",
-        "imagen": "/imagenes/essencial.jpg",
-        "precio": 7200,
-        "detalle": "Hamburguesa de doble carne, triple cheddar, relish de pepino, ketchup con cebollas, con papas fritas chicas."
+        "categoria": "hamburguesas",
+        "nombre": "SMOKE",
+        "imagen": "/imagenes/smoke.jpg",
+        "precio": 6500,
+        "detalle": "Doble Carne (125 Gr. caHamburguesa de doble carne , doble provolone, bacón con cebollas ahumadas, smoke barbacue con papas fritas chicas.da medallón). Doble Cheddar, Bacon, tomate, pepino agridulce, cebolla, lechuga, salsa big."
     },
     {
         "id":5,
+        "categoria": "hamburguesas",
+        "nombre": "VEGGETA",
+        "imagen": "/imagenes/vegetta.jpg",
+        "precio": 7200,
+        "detalle": "Hamburguesa medallón de porotos negros y quinoa, tomates confitados, lechuga morada, salsa de berenjena ahumada con papas fritas chicas."
+    },
+    {
+        "id":6,
+        "categoria": "hamburguesas",
         "nombre": "UMBRELLA CUSTOM",
-        "imagen": "/imagenes/essencial.jpg",
+        "imagen": "/imagenes/umbrella.jpg",
         "precio": 7500,
         "detalle": "Hamburguesa de doble carne, doble provolone,  doble bacón, chutney de panceta y cebolla y salsa Alioli de morron asado con papas fritas chicas."
     },
     {
-        "id":6,
+        "id":7,
+        "categoria": "hamburguesas",
         "nombre": "HELL",
-        "imagen": "/imagenes/essencial.jpg",
+        "imagen": "/imagenes/hell.jpg",
         "precio": 7500,
         "detalle": "Hamburguesa doble carne, cuadruple cheddar, bacon, salsa DimeHell y pickle de cebolla con papas fritas chicas."
+    },
+    {
+        "id":8,
+        "categoria": "bebidas",
+        "nombre": "pepsi",
+        "imagen": "/imagenes/pepsi.jpg",
+        "precio": 1000,
+        "detalle": "Lata 350 coca cola"
+    },
+    {
+        "id":9,
+        "categoria": "bebidas",
+        "nombre": "7 up",
+        "imagen": "/imagenes/sevenup.jpg",
+        "precio": 1000,
+        "detalle": "Lata 7 up"
+    },
+    {
+        "id":10,
+        "categoria": "dips",
+        "nombre": "DIP DE AJO",
+        "imagen": "/imagenes/dipajo.jpg",
+        "precio": 800,
+        "detalle": "Dip de ajo"
     }
 ]
