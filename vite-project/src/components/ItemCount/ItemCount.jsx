@@ -1,25 +1,20 @@
 import React, { useState } from 'react';
 
-const ItemCount = () => {
-  const [contador, setContador] = useState(1);
 
-  const aumentar = () => {
-    console.log("Veces que se hizo clic:", contador); 
-    setContador(contador + 1);
-  };
-
-  const decrementar = () => {
-    console.log("Veces que se hizo clic resta:", contador); 
-    if (contador > 0){
-    setContador(contador - 1);}
-  };
+const ItemCount = ({contador, aumentar, decrementar, agregarCarrito}) => {
+  
 
   return (
     <div>
-      <button onClick={aumentar}> + </button>
-      <p>Contador: {contador}</p>
-      <button onClick={decrementar}> - </button>
+      <div>
+        <button onClick={aumentar} className="verMas"> + </button>
+        <p>Cantidad: {contador}</p>
+        <button onClick={decrementar} className="verMas"> - </button>
+      
+      </div>
+        <button onClick={agregarCarrito} className="verMas">Agregar al carrito</button>
     </div>
+    
   );
 
 };

@@ -1,17 +1,15 @@
-import React from "react";
+import React, { useContext } from 'react'
+import { Link } from 'react-router-dom'
+import { CartContext } from '../Context/CartContext'
 
-const CartWidget = () => {
+export const CartWidget = () => {
 
-  const itemCount = 1;
-
+    const {cantidadCarrito} = useContext(CartContext);
   return (
-    <div className="cart-widget">
-      <a href="/cart">
-        <span role="img" aria-label="cart">🛒</span>
-        0
-      </a>
+    <div>
+         <Link className="nav-link active" to="/carrito">🛒
+         <span> {cantidadCarrito()}</span>
+         </Link>
     </div>
-  );
-};
-
-export default CartWidget;
+  )
+}
